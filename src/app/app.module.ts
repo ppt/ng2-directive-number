@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {NumberInputComponent} from './number-input/number-input.component';
+import {CommaDirective} from './comma.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumberInputComponent,
+    CommaDirective
   ],
   imports: [
     BrowserModule,

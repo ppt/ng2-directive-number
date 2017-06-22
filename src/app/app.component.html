@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<!--<number-input [num]=2000 (inputChange)="item = $event" ></number-input>-->
+
+<number-input [(ngModel)]="num" ></number-input>
+<div>number on focus: {{num}}</div>
+<div>number on blur: xxxx</div>
+
